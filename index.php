@@ -993,21 +993,9 @@
 					$dataarr=json_decode($resp);
 					$cnt=1;
                     $categoriesall=array();
-					// print_r($dataarr->products);
+					
 					foreach($dataarr->products as $row){
-                       // echo "<pre>".print_r($row)."</pre>";
-                        // foreach($row->name as $name){
-                        //     // echo 'name:'.$name.'<br/>';
-                        //     if(in_array($name,$categoriesall)){
-                                
-                        //     }else{
-                        //         array_push($categoriesall,$name);
-                        //     }
-                        // }
-                        // $cnt++;
-                        // $arraySize = count($cnt++); 
-                       // echo print_r($arraySize);
-                        //for ($x = 0; $x <= $arraySize; $x++) { 
+                      
                         echo '
                         <div class="col-md-3 " style="min-width:300px !important;">
                         <div class="card" style="cursor:pointer !important;" data-toggle="modal" data-target="#modalone'.$row->product.'">
@@ -1033,7 +1021,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                  <div class="text-center">  <img src="'.$row->media->standard[0].'" class="text-center" style="width:50%;"></div>
+                                  <div class="text-center" style="border-bottom:1px solid #f5f5f5; margin-bottom:10px !important;">  <img src="'.$row->media->standard[0].'" class="text-center" style="width:50%;"></div>
                                    <p class="clerk-glide-description " style="display:flow-root;"><span style="float:left !important;font-weight:600;">'.$row->name.'</span><span style="float:right !important;font-weight:600;">'.$row->price.'</span></p>
                                    <p class=" small text-left pb-2" style="text-align:left !important;">'.$row->description.'</p>
                                    <div class="card-title text-center" >
@@ -1463,17 +1451,7 @@
         </div>
     </div>
 </body>
-<script>
-    window.intercomSettings = {
-        app_id: "pith1dxy"
-    };
-    if (localStorage.getItem('name')) {
-        window.intercomSettings.name = localStorage.getItem('name');
-    }
-    if (localStorage.getItem('email')) {
-        window.intercomSettings.email = localStorage.getItem('email');
-    }
-</script>
+
 <script>
 function addHeadTag(tag, options) {
 let item = document.createElement(tag);
