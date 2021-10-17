@@ -67,16 +67,7 @@
 
 
     <link type="text/css" href="https://www.swati.com/css/main.1f4c1e7afb4502bc0ad3.min.css" rel="stylesheet">
-    <script>
-        window.production = true;
-        window._locale = 'en';
-        window._language = 'en';
-        window._ck_uri = 'checkout/';
-        window._pmr_uri = 'payment-return/';
-        window._sw_alternate_page = JSON.parse(
-            "{\"en\":\"\\/\",\"de-de\":\"de\\/\",\"fr-fr\":\"fr\\/\",\"it-it\":\"it\\/\",\"sv-se\":\"se\\/\",\"en-in\":\"in\\/\"}"
-        )
-    </script>
+   
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js"
         integrity="sha512-BCMqEPl2dokU3T/EFba7jrfL4FxgY6ryUh4rRC9feZw4yWUslZ3Uf/lPZ5/5UlEjn4prlQTRfIPYQkDrLCZJXA=="
@@ -84,146 +75,7 @@
     
 
 
-    <script>
-        window._swati_locale = JSON.parse(
-                "{\"in_stock\":\"IN STOCK\",\"low_in_stock\":\"LOW IN STOCK\",\"out_of_stock\":\"OUT OF STOCK\",\"preorder\":\"PRE-ORDER: EXPECTED SHIPPING\",\"without_power\":\"WITHOUT POWER\",\"unavailable\":\"NOT AVAILABLE\",\"discount_banner\":\"Save %\",\"select_variant\":\"SELECT VARIANT\",\"included_in_bundle\":\"Included in this Bundle\",\"product_details\":\"Product Details\",\"thank_you\":\"Thank You!\",\"notify_me.title\":\"Notify when available\",\"notify_me.text\":\"Get notified via Email SMS when {{name}} is back in stock.\",\"notify_me.button\":\"Notify Me\",\"notify_me.success_text\":\"We will notify you when {{name}} will be back in stock.\",\"six_months\":\"6-months\",\"one_month\":\"1-month\",\"labels.secured_payment\":\"Secure payments\",\"labels.badge.is_new\":\"New\",\"labels.badge.on_sale\":\"Save %\",\"labels.badge.trending\":\"Trending\",\"labels.badge.bestseller\":\"Bestseller\",\"labels.badge.is_recommended\":\"Recommended\",\"labels.badge.preorder\":\"Preorder\",\"labels.social_proof_title\":\"WE\'D LOVE TO FEATURE YOU!\",\"labels.social_proof.shop_button\":\"SHOP THE LOOK\",\"labels.social_proof.featured_look\":\"FEATURED LOOK\",\"labels.filter_by\":\"Filter By:\",\"labels.select_category\":\"Select Category\",\"add_to_cart_button\":\"Add to cart\",\"added_to_cart_button\":\"Added to cart\",\"notify_me_button\":\"Notify when available\",\"apply_button\":\"Apply\",\"cart\":\"Cart\",\"labels.quantity\":\"Qt.\",\"labels.free\":\"FREE\",\"labels.discount\":\"DISCOUNT\",\"labels.shipping\":\"SHIPPING\",\"labels.total\":\"TOTAL\",\"labels.grand_total\":\"GRAND TOTAL\",\"labels.variant\":\"Variant\",\"labels.empty_cart\":\"Your cart is empty\",\"labels.continue_shopping\":\"Continue Shopping\",\"labels.go_to_checkout\":\"Go to checkout\",\"labels.bundle.content\":\"Package content\",\"labels.view_cart\":\"View Cart\",\"labels.checkout_comment.heading\":\"Help others with their purchase\",\"labels.checkout_comment.title\":\"Why did you choose this item?\",\"buttons.checkout_comment\":\"Let us know!\",\"labels.see_more\":\"See more\",\"labels.images.see_more\":\"See more images\",\"labels.images.see_more.lenses\":\"See lens on other models\",\"labels.show_all\":\"Show all\",\"labels.show_more\":\"Show more\",\"labels.show_less\":\"Show less\",\"labels.shop.category_title\":\"Learn more about our {{category}}\",\"labels.information\":\"Information\",\"labels.rx_verification\":\"RX Verification\",\"labels.privacy_policy\":\"Privacy Policy\",\"labels.terms_of_use\":\"Terms & conditions\",\"labels.returns\":\"Delivery & returns\",\"labels.legal\":\"LEGAL\",\"labels.news\":\"Blog & News\",\"labels.news.posted_on\":\"Posted on\",\"labels.support\":\"Support\",\"labels.contact_us\":\"Contact us\",\"labels.retailer\":\"Become Reseller\",\"labels.ambassador\":\"Become Ambassador\",\"labels.reviews\":\"Reviews\",\"labels.brand\":\"SWATI Cosmetics\",\"labels.upload_prescription\":\"Upload Prescription\",\"labels.tracking\":\"Track order\",\"labels.how_to_use\":\"How To Use\",\"labels.lookbook\":\"Lookbook\",\"labels.our_story\":\"Our Story\",\"labels.inspirations\":\"Inspirations\",\"labels.select_eye_colour\":\"Select your eye colour\",\"labels.select_product\":\"Select lens colour\",\"labels.select_power\":\"Select your eye power\",\"labels.shop.cosmetics\":\"Cosmetics\",\"labels.shop.new_arrivals\":\"New Arrivals!\",\"labels.shop.accessories\":\"Accessories\",\"labels.shop.bundles\":\"Bundle Deals\",\"labels.shop.by_duration\":\"Shop by Duration\",\"labels.shop.by_eye_colour\":\"Shop by Eyecolour\",\"labels.shop.by_eye_colour.blue\":\"Blue Lenses\",\"labels.shop.by_eye_colour.brown\":\"Brown Lenses\",\"labels.shop.by_eye_colour.green\":\"Green Lenses\",\"labels.shop.by_eye_colour.grey\":\"Grey Lenses\",\"labels.shop.eyeliner\":\"Eyeliner\",\"labels.shop.lashes\":\"Lashes\",\"labels.shop.mascara\":\"Mascara\",\"labels.shop.serum\":\"Lash Serum\",\"labels.shop.lenses\":\"Coloured Lenses\",\"labels.shop.lenses.one_month\":\"1-Month Lenses\",\"labels.shop.lenses.six_months\":\"6-Months Lenses\",\"labels.shop.lenses.accessories\":\"Contact Lens Care\",\"labels.shop.makeup\":\"Make-up\",\"labels.shop.makeup.eye\":\"Shop by Category\",\"labels.shop.makeup.eyeliner\":\"Eyeliner\",\"labels.shop.makeup.eyelashes\":\"Eyelashes\",\"labels.shop.makeup.accessories\":\"Make-up Tools\",\"labels.shop\":\"Shop now\",\"labels.social_links\":\"Follow us\",\"labels.product.before\":\"Before\",\"labels.product.after\":\"After\",\"labels.personalise\":\"Personalise\",\"labels.news.go_back\":\"GO BACK TO BLOGS\",\"labels.footer.subscribe.title\":\"Join the SWATI Community\",\"labels.footer.subscribe.text\":\"Stay in the loop! We give you news, campaigns, events as well as tips & tricks.\",\"labels.footer.subscribe.success_text\":\"for subscribing to our newsletter.\",\"labels.signup.title\":\"Sign up & get 10% off\",\"labels.signup.text\":\"Subscribe to our newsletters and stay up-to-date with new products and exclusive offers.\",\"button.subscribe.text\":\"Subscribe\",\"button.submit.text\":\"Submit\",\"select.variant.placeholder\":\"Select Variant\",\"select.invalid.eye_power\":\"Please select your eye power.\",\"select.invalid.eye_colour\":\"Please select your eye colour.\",\"disclaimer.lenses\":\"<p><strong>Please note: <\\/strong>The effect give by the coloured lenses may vary depending on the natural colour of the iris.<\\/p>\",\"disclaimer.lashes\":\"<p><strong>Please note:<\\/strong> The overall appearance of the lashes may differ depending on the size and shape of your eyes.<\\/p>\",\"disclaimer.makeup\":\"<p><strong>Please note:<\\/strong> Results are individual and may vary from person to person.<\\/p>\",\"disclaimer.cookies\":\"<p>Our site uses cookies and handles personal information to improve your experience. Read more about it in our <a href="
-                https: //www.swati.com/\\\&quot;privacy-policy\\/\\\&quot;">Privacy Policy<\\/a><\\/p>\",\"buttons.got_it\":\"GOT IT!\",\"buttons.save\":\"Save\",\"buttons.save.billing_address\":\"Save billing address\",\"buttons.send\":\"Send\",\"offers.unlock_shipping\":\"<p>You\'re {{price}} away from <strong>FREE SHIPPING!<\\/strong><\\/p>\",\"offers.unlocked_shipping\":\"<p>You are eligible for <strong>FREE SHIPPING!<\\/strong><\\/p>\",\"labels.carousel.title.recommended\":\"You may also like\",\"labels.carousel.title.also_bought\":\"People also bought\",\"labels.carousel.title.essentials\":\"Add essentials\",\"labels.carousel.button.essentials\":\"+Add\",\"labels.email_form.success.title\":\"Please check your e-mail\",\"labels.email_form.success.message\":\"We\'ve sent a PDF to your e-mail address, please check it out! If you didn\'t get an e-mail within a minute, please make sure your Adblockers are disabled for SWATI.com\",\"labels.search.placeholder\":\"Type your query here\",\"labels.search.title\":\"Search products\",\"labels.search.result\":\"Results for\",\"labels.search.no_result\":\"Your search matched no results\",\"input.invalid.empty\":\"You need to fill in this field\",\"input.zipcode.invalid\":\"Please provide a valid zip code\",\"input.phone.placeholder\":\"Phone Number\",\"input.phone.invalid\":\"Please provide a valid phone number\",\"input.phone.invalid.country_code\":\"You have provided an invalid country code\",\"input.phone.invalid.too_short\":\"Provided number is too short\",\"input.phone.invalid.too_long\":\"Provided number is too long\",\"input.email.placeholder\":\"Enter Your Email\",\"input.email.invalid\":\"Please provide a valid email address\",\"input.first_name.placeholder\":\"First name\",\"input.last_name.placeholder\":\"Last name\",\"input.address.placeholder\":\"Address\",\"input.zip_code.placeholder\":\"Post\\/Zip Code\",\"input.city.placeholder\":\"City\",\"input.state.placeholder\":\"State\",\"input.state.invalid\":\"You need to select a state\",\"input.country.placeholder\":\"Country\",\"labels.payment.button.continue\":\"Continue payment\",\"labels.payment.button.continuing\":\"Placing Order....\",\"labels.payment.success.title\":\"Thank you!\",\"labels.payment.success.message\":\"<p>You will receive a confirmation e-mail soon.<\\/p>\",\"labels.payment.success.order_label\":\"Here is your order no\",\"labels.payment.pending.title\":\"Payment Pending!\",\"labels.payment.pending.message\":\"<p>Hey, We received your order but the payment is still pending. Please contact <a target=\\\"_blank\\\" rel=\\\"noopener\\\" href="https://www.swati.com/\\\&quot;mailto:support@swati.com\\\&quot;">support@swati.com<\\/a> for order status.<\\/p>\",\"labels.customer\":\"customer\"}");
-                window._product_prices = JSON.parse(
-                    "{\"166\":{\"USD\":55,\"SEK\":499},\"167\":{\"USD\":55,\"SEK\":499},\"168\":{\"USD\":55,\"SEK\":499},\"169\":{\"USD\":55,\"SEK\":499},\"170\":{\"USD\":55,\"SEK\":499},\"171\":{\"USD\":55,\"SEK\":499},\"172\":{\"USD\":55,\"SEK\":499},\"173\":{\"USD\":55,\"SEK\":499},\"214\":{\"USD\":14,\"SEK\":139},\"215\":{\"USD\":4,\"SEK\":59},\"217\":{\"USD\":29,\"SEK\":299},\"219\":{\"USD\":29,\"SEK\":299},\"221\":{\"USD\":29,\"SEK\":299},\"223\":{\"USD\":29,\"SEK\":299},\"225\":{\"USD\":29,\"SEK\":299},\"227\":{\"USD\":29,\"SEK\":299},\"229\":{\"USD\":29,\"SEK\":299},\"232\":{\"USD\":29,\"SEK\":299},\"293\":{\"USD\":468,\"SEK\":4270},\"294\":{\"USD\":246,\"SEK\":2531},\"295\":{\"USD\":179,\"SEK\":1636},\"296\":{\"USD\":101,\"SEK\":1036},\"297\":{\"USD\":179,\"SEK\":1636},\"298\":{\"USD\":101,\"SEK\":1036},\"301\":{\"USD\":24,\"SEK\":249},\"303\":{\"USD\":19,\"SEK\":199},\"305\":{\"USD\":19,\"SEK\":199},\"307\":{\"USD\":19,\"SEK\":199},\"309\":{\"USD\":19,\"SEK\":199},\"311\":{\"USD\":19,\"SEK\":199},\"313\":{\"USD\":19,\"SEK\":199},\"315\":{\"USD\":12,\"SEK\":125},\"317\":{\"USD\":149,\"SEK\":1499},\"319\":{\"USD\":55,\"SEK\":567},\"320\":{\"USD\":55,\"SEK\":567},\"321\":{\"USD\":55,\"SEK\":567},\"324\":{\"USD\":21,\"SEK\":225},\"325\":{\"USD\":18,\"SEK\":189},\"326\":{\"USD\":19,\"SEK\":199},\"327\":{\"USD\":28,\"SEK\":249},\"329\":{\"USD\":55,\"SEK\":499},\"331\":{\"USD\":121,\"SEK\":1206},\"385\":{\"USD\":56,\"SEK\":498},\"386\":{\"USD\":110,\"SEK\":998},\"387\":{\"USD\":48,\"SEK\":498},\"388\":{\"USD\":38,\"SEK\":398},\"389\":{\"USD\":38,\"SEK\":398},\"390\":{\"USD\":38,\"SEK\":398},\"391\":{\"USD\":38,\"SEK\":398},\"392\":{\"USD\":38,\"SEK\":398},\"393\":{\"USD\":38,\"SEK\":398},\"394\":{\"USD\":28,\"SEK\":278},\"395\":{\"USD\":8,\"SEK\":118},\"396\":{\"USD\":38,\"SEK\":398},\"397\":{\"USD\":36,\"SEK\":378},\"398\":{\"USD\":24,\"SEK\":250},\"403\":{\"USD\":70,\"SEK\":738},\"404\":{\"USD\":46,\"SEK\":438},\"405\":{\"USD\":83,\"SEK\":748},\"406\":{\"USD\":102,\"SEK\":1061},\"407\":{\"USD\":130,\"SEK\":1236},\"408\":{\"USD\":78,\"SEK\":773},\"409\":{\"USD\":55,\"SEK\":573}}"
-                ); window._product_recommendations = JSON.parse(
-                    "{\"popular\":[\"171\",\"171\",\"217\",\"320\",\"327\",\"301\",\"311\",\"214\",\"325\",\"329\",\"327\",\"327\"],\"trending\":[\"214\",\"172\",\"223\",\"320\",\"327\",\"301\",\"311\",\"214\",\"324\",\"329\",\"327\",\"311\"]}"
-                );
-    </script>
-    <!-- Start of Clerk.io E-commerce Personalisation tool - www.clerk.io -->
-    <script type="text/javascript">
-        (function (w, d) {
-            var e = d.createElement('script');
-            e.type = 'text/javascript';
-            e.async = true;
-            e.src = (d.location.protocol == 'https:' ? 'https' : 'http') + '://cdn.clerk.io/clerk.js';
-            var s = d.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(e, s);
-            w.__clerk_q = w.__clerk_q || [];
-            w.Clerk = w.Clerk || function () {
-                w.__clerk_q.push(arguments)
-            };
-        })(window, document);
 
-        function getLocalisedString(key, defaultValue) {
-            if (window._swati_locale) {
-                return window._swati_locale[key] || defaultValue;
-            }
-            return defaultValue || '';
-        }
-
-        function getClerkLanguage() {
-            if (window._locale === 'it-it') {
-                return 'italian'
-            }
-            if (window._locale === 'de-de') {
-                return 'german'
-            }
-            if (window._locale === 'fr-fr') {
-                return 'french'
-            }
-            if (window._locale === 'sv-se') {
-                return 'swedish'
-            }
-            return 'english'
-        }
-
-        function isProductRecommended(product, recommendationType) {
-            try {
-                const recommendations = window._product_recommendations;
-                return recommendations && recommendations[recommendationType] && recommendations[recommendationType]
-                    .indexOf('' + product) >= 0;
-            } catch {
-                return false
-            }
-        }
-
-        Clerk('config', {
-            key: 'ddDYOfJzjgUVAjE9q7vRbgdx0MZh35Rj',
-            collect_email: true,
-            language: getClerkLanguage(),
-            formatters: {
-                get_localised_string: getLocalisedString,
-                currency_selector: function (prices, pricelists) {
-                    try {
-                        var priceList = '41';
-                        if (window._swati && window._swati._pricelist) {
-                            priceList = window._swati._pricelist;
-                        }
-                        var currencyIndex = pricelists.indexOf(priceList.toString());
-                        return prices[currencyIndex] || '';
-                    } catch (e) {
-                        console.error(e);
-                    }
-                    return '';
-                },
-                get_pricelist: function (product) {
-                    try {
-                        var priceList = '41';
-                        if (window._swati && window._swati._pricelist) {
-                            priceList = window._swati._pricelist;
-                        }
-                        var currencyIndex = product['pricelists'].indexOf(priceList.toString());
-                        let pObj = {
-                            price_formatted: product['prices_formatted'][currencyIndex],
-                            list_price_formatted: product['list_prices_formatted'][currencyIndex]
-                        }
-                        if (product['new_product'][currencyIndex]) {
-                            pObj.badge = getLocalisedString('labels.badge.is_new', 'New');
-                            pObj.badge_type = 'primary';
-                        } else if (isProductRecommended(product.id, 'popular')) {
-                            pObj.badge = getLocalisedString('labels.badge.bestseller', 'Bestseller');
-                            pObj.badge_type = 'bestseller';
-                        } else if (isProductRecommended(product.id, 'trending')) {
-                            pObj.badge = getLocalisedString('labels.badge.trending', 'Trending');
-                            pObj.badge_type = 'trending';
-                        } else if (product['show_on_sale'][currencyIndex]) {
-                            pObj.badge = getLocalisedString('labels.badge.on_sale', 'Save %')
-                                .replace(/%/, product['discounts'][currencyIndex] + '%').replace(/\n/g,
-                                    "<br />");
-                            pObj.badge_type = 'discount';
-                        }
-                        return pObj;
-                    } catch (e) {
-                        console.error(e);
-                    }
-                    return '';
-                },
-                is_even: function (no) {
-                    if (typeof no === 'number') {
-                        return no % 2 === 0;
-                    }
-                    return false;
-                }
-            }
-        });
-        if (localStorage) {
-            const email = localStorage.getItem('email');
-            if (email) {
-                Clerk('call', 'log/email', {
-                    email: email
-                });
-            }
-        }
-    </script>
-
-
-    <script>
-        window.stamped_disable_font = true;
-    </script>
-    <script type="text/javascript" src="https://cdn1.stamped.io/files/widget.min.js"> </script>
-    <script type="text/javascript">
-        //<![CDATA[\
-        StampedFn.init({
-            apiKey: 'pubkey-e8N8Z6eGMW1Rc4G9H3Y1MmF7iph9H0',
-            storeUrl: 'www.swati.com'
-        });
-        // ]]>
-    </script>
 </head>
 
 <body class=" ">
@@ -1035,192 +887,90 @@
                 </div>
             </div>
         </section>
-        <section class="swati-section  py-3 hider">
-            <div class="container-fluid vertical-category">
-
-
-                <div class="row">
-                    <div class="col-6 col-md-3 p-1 px-md-2">
-                        <a href="https://www.swati.com/coloured-contact-lenses/" class="vertical-category-item">
-                            <div class="vertical-category-item-image">
-                                <img class=" lazy-swati"
-                                    data-src="https://images.prismic.io/swati/8745d839-b10a-4800-b66e-ce2198edd070_lenses.jpg?auto=compress,format"
-                                    alt="Coloured circle contact lenses with prescription" />
-
-                                <img class="vertical-category-item-image-hover lazy-swati"
-                                    data-src="https://images.prismic.io/swati/05b97b8f-6977-40c1-8b3b-582ea386a176_lenses-hover.jpg?auto=compress,format"
-                                    alt="Coloured circle contact lenses with prescription hover image" />
-
-                            </div>
-                            <div class="vertical-category-item-content">
-                                <p>SHOP<br />
-                                    LENSES</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 col-md-3 p-1 px-md-2">
-                        <a href="https://www.swati.com/cosmetics/make-up/" class="vertical-category-item">
-                            <div class="vertical-category-item-image">
-                                <img class=" lazy-swati"
-                                    data-src="https://images.prismic.io/swati/73ac4a86-c7c2-4b87-955f-be7b82e74bed_make-up.jpg?auto=compress,format"
-                                    alt="SWATI vegan makeup products" />
-
-                                <img class="vertical-category-item-image-hover lazy-swati"
-                                    data-src="https://images.prismic.io/swati/c054528a-40d7-42f9-af66-601f13260eb1_make-up-hover.jpg?auto=compress,format"
-                                    alt="SWATI vegan makeup products hover product image" />
-
-                            </div>
-                            <div class="vertical-category-item-content">
-                                <p>SHOP<br />
-                                    MAKE-UP</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 col-md-3 p-1 px-md-2">
-                        <a href="https://www.swati.com/cosmetics/eyelashes/" class="vertical-category-item">
-                            <div class="vertical-category-item-image">
-                                <img class=" lazy-swati"
-                                    data-src="https://images.prismic.io/swati/798de740-e2f3-49fd-8032-373162d175cf_lashes.jpg?auto=compress,format"
-                                    alt="SWATI Cosmetics faux mink collection" />
-
-                                <img class="vertical-category-item-image-hover lazy-swati"
-                                    data-src="https://images.prismic.io/swati/19bb9f01-2066-4b81-a9aa-f53ac6bcd6da_lashes-hover.jpg?auto=compress,format"
-                                    alt="SWATI Cosmetics faux mink collection hover image" />
-
-                            </div>
-                            <div class="vertical-category-item-content">
-                                <p>SHOP<br />
-                                    LASHES</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 col-md-3 p-1 px-md-2">
-                        <a href="https://www.swati.com/cosmetics/lash-serum/" class="vertical-category-item">
-                            <div class="vertical-category-item-image">
-                                <img class=" lazy-swati"
-                                    data-src="https://images.prismic.io/swati/2990b035-6a02-4e3e-930b-cb942b0aa71b_serum.jpg?auto=compress,format"
-                                    alt="Eyelash + brow growth serum" />
-
-                                <img class="vertical-category-item-image-hover lazy-swati"
-                                    data-src="https://images.prismic.io/swati/7b6c2c5a-65c1-4062-a23c-a4e62a5f7460_serum-hover.jpg?auto=compress,format"
-                                    alt="Eyelash + brow growth serum hover product image" />
-
-                            </div>
-                            <div class="vertical-category-item-content">
-                                <p>SHOP<br />
-                                    LASH+BROW<br />
-                                    SERUM</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="hider">
-            <div class="glide" id="categorySlider">
-                <div data-glide-el="track" class="glide__track">
-                    <ul class="glide__slides mb-0">
-                        <li class="glide__slide category-section p-0 bg-onyx category-section-light ">
-                            <div
-                                class="row m-auto container-wide justify-content-center flex-row-reverse position-relative">
-                                <div class="col-12 col-md-6 text-center d-flex flex-column category-section-content">
-                                    <div class="category-section-title h1">
-                                        <h1>They're Back!</h1>
-                                    </div>
-                                    <div class="category-section-description d-none d-lg-block">
-                                        <p>Our best-sellers have just been restocked!<br />
-                                            Grab them before they're sold out again.<br />
-                                            ﻿LIMITED STOCK ONLY.</p>
-                                    </div>
-                                    <div class="category-section-button">
-                                        <a class="btn btn-lg btn-outline-light px-lg-5"
-                                            href="https://www.swati.com/coloured-contact-lenses/" target="_self">Shop
-                                            Now</a>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-12 col-md-6 d-flex flex-grow-1 justify-content-center flex-column text-center category-section-image-container">
-                                    <picture>
-                                        <img class="category-section-image lazy-swati"
-                                            data-src="https://images.prismic.io/swati/8a317b14-79f8-43a7-95be-e83f5ab30aa3_Back+in+Stock_800x800-01+%284%29.jpg?auto=compress,format"
-                                            alt="SWATI Lenses back in stock" style="" />
-                                    </picture>
-
-                                </div>
-                            </div>
-                        </li>
-                        <li class="glide__slide category-section p-0 bg-grazia-pink category-section-light ">
-                            <div
-                                class="row m-auto container-wide justify-content-center flex-row-reverse position-relative">
-                                <div class="col-12 col-md-6 text-center d-flex flex-column category-section-content">
-                                    <div class="category-section-title h1">
-                                        <h1>Loved by the experts!</h1>
-                                    </div>
-                                    <div class="category-section-description d-none d-lg-block">
-                                        <p>We're listed by the editorial team at GRAZIA as the coolest brand that
-                                            millennials love</p>
-                                    </div>
-                                    <div class="category-section-button">
-                                        <a class="btn btn-lg btn-outline-light px-lg-5"
-                                            href="https://www.swati.com/shop/" target="_self">Shop Now</a>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-12 col-md-6 d-flex flex-grow-1 justify-content-center flex-column text-center category-section-image-container">
-                                    <picture>
-                                        <img class="category-section-image lazy-swati"
-                                            data-src="https://images.prismic.io/swati/84f134f3-37fa-4f1c-964f-a783834848bb_GLB+LOGO+Final+%281%29.png?auto=compress,format"
-                                            alt="SWATI is now GRAZIA most loved brand" style="" />
-                                    </picture>
-
-                                </div>
-                            </div>
-                        </li>
-                        <li class="glide__slide category-section p-0 bg-vanta  ">
-                            <div
-                                class="row m-auto container-wide justify-content-center flex-row-reverse position-relative">
-                                <div class="col-12 col-md-6 text-center d-flex flex-column category-section-content">
-                                    <div class="category-section-title h1">
-                                        <h1>Bundled Offers</h1>
-                                    </div>
-                                    <div class="category-section-description d-none d-lg-block">
-                                        <p>Are you looking for the perfect gift set for yourself or a loved one? Look
-                                            here! We have a bundle for every mood and occasion.</p>
-                                    </div>
-                                    <div class="category-section-button">
-                                        <a class="btn btn-lg btn-outline-primary px-lg-5"
-                                            href="https://www.swati.com/bundles-and-sets/" target="_self">Shop Bundles
-                                            Offers</a>
-                                    </div>
-                                </div>
-                                <div
-                                    class="col-12 col-md-6 d-flex flex-grow-1 justify-content-center flex-column text-center category-section-image-container">
-                                    <picture>
-                                        <source type="image/webp"
-                                            data-srcset="https://static.swati.com/product-images/royal-bundle-6-months-lenses.webp" />
-                                        <img class="category-section-image lazy-swati"
-                                            data-src="https://static.swati.com/product-images/royal-bundle-6-months-lenses.png"
-                                            alt="SWATI Glam kit with Vanta eyeliner, lash applicator and tiger&#039;s eye lashes." />
-                                    </picture>
-
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="category-section__footer ">
-                    <div class="glide__bullets" data-glide-el="controls[nav]">
-                        <div class="glide__bullet" data-glide-dir="=0"> </div>
-                        <div class="glide__bullet" data-glide-dir="=1"> </div>
-                        <div class="glide__bullet" data-glide-dir="=2"> </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="swati-section alternate text-center alternate" id="productCarouselSection">
+       
+        <section class="swati-section alternate text-center alternate" id="productCarouselSection" style="background-color:#f6f6f6;">
             <div class="container ">
-                <h2 class="primary__title text-center mb-3">You may also like</h2>
+                <h2 class="primary__title text-center " style="padding-bottom:30px !important;">Categories</h2>
+        <div class="row">
+        <div class="col-md-12 d-inline-flex pb-2 pt-2" style="max-width:fit-content; overflow-x:scroll;">
+                <?php 
+                    // echo "<pre> Response"; print_r($response); echo "</pre>";
+					$url = "https://swati.centraqa.com/api/checkout/categories/";
+					$curl = curl_init($url);
+					curl_setopt($curl, CURLOPT_URL, $url);
+					curl_setopt($curl, CURLOPT_POST, true);
+					curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
+					$headers = array(
+					   "Origin: http://localhost:1229",
+					   "Content-Length: 0",
+					);
+					curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+					//for debug only!
+					curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+					curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+
+					$resp = curl_exec($curl);
+					curl_close($curl);
+					$dataarr=json_decode($resp);
+					$cnt=1;
+                    $categoriesall=array();
+					foreach($dataarr->categories as $row){
+                        foreach($row->name as $name){
+                            if(in_array($name,$categoriesall)){
+                            }else{
+                                array_push($categoriesall,$name);
+                            }
+                        }
+					}
+                        for ($x=0; $x<@count($categoriesall); $x++) { 
+                        echo '
+                        <div class="col-md-3" style="min-width:300px !important;">
+                        <div class="card" style="cursor:pointer !important;">
+                            <img class="card-img-top img-hover-zoom" src="images/colouredlenses.png" alt="nasbeer images">
+                            <div class="card-body">
+                                <h5 class="card-title">'.$categoriesall[$x].'</h5>
+                             
+                            </div>
+                            </div>
+                        </div>';
+                       //}
+                        // $arraySize = count($row); 
+                        // for ($x = 0; $x <= $arraySize; $x++) { 
+                        //    // $catname=$row->name[$x];
+                        //     echo '
+                        //     <div class="col-md-3">
+                        //     <div class="card" style="">
+                        //         <img class="card-img-top" src="images/colouredlenses.png" alt="nasbeer images">
+                        //         <div class="card-body">
+                        //             <h5 class="card-title">'.$row->name[$x].'</h5>
+                                 
+                        //         </div>
+                        //         </div>
+                        //     </div>';
+                        // }
+						//echo print_r($row);
+                      
+
+					//	echo 'product:'.$row->product.'<br/>';
+					//	echo 'name:'.$row->name[0].'<br/>';
+					//	echo 'collectionName:'.$row->collectionName.'<br/>';
+					//	echo 'collectionUri:'.$row->collectionUri.'<br/>';
+					//	echo 'excerptHtml:'.$row->excerptHtml.'<br/>';
+					}
+                   
+                ?>
+                </div></div>
+                
+               <!-- <span class="clerk" data-template="@homepage-slider"></span>-->
+            </div>
+        </section>
+
+        <section class="swati-section alternate text-center alternate" style="background-color:#f6f6f6;border-top:1px solid #ccc;">
+        <div class="container ">
+                <h2 class="primary__title text-center " style="padding-bottom:30px;">Products You may like</h2> 
+                <div class="row">
+        <div class="col-md-12 pb-2 pt-2" style="display:inline-flex !important; max-width:fit-content; overflow-x:scroll;">
                 <?php 
                     // echo "<pre> Response"; print_r($response); echo "</pre>";
 					$url = "https://swati.centraqa.com/api/checkout/products/";
@@ -1241,19 +991,70 @@
 					$resp = curl_exec($curl);
 					curl_close($curl);
 					$dataarr=json_decode($resp);
-					echo '<pre>';
+					$cnt=1;
+                    $categoriesall=array();
 					// print_r($dataarr->products);
 					foreach($dataarr->products as $row){
-						// print_r($row);
-						echo 'product:'.$row->product.'<br/>';
-						echo 'name:'.$row->name.'<br/>';
-						echo 'collectionName:'.$row->collectionName.'<br/>';
-						echo 'collectionUri:'.$row->collectionUri.'<br/>';
-						echo 'excerptHtml:'.$row->excerptHtml.'<br/>';
+                       // echo "<pre>".print_r($row)."</pre>";
+                        // foreach($row->name as $name){
+                        //     // echo 'name:'.$name.'<br/>';
+                        //     if(in_array($name,$categoriesall)){
+                                
+                        //     }else{
+                        //         array_push($categoriesall,$name);
+                        //     }
+                        // }
+                        // $cnt++;
+                        // $arraySize = count($cnt++); 
+                       // echo print_r($arraySize);
+                        //for ($x = 0; $x <= $arraySize; $x++) { 
+                        echo '
+                        <div class="col-md-3 " style="min-width:300px !important;">
+                        <div class="card" style="cursor:pointer !important;" data-toggle="modal" data-target="#modalone'.$row->product.'">
+                            <img class="card-img-top" style="background-color:#f6f6f6;" src="'.$row->media->thumb[0].'" alt="nasbeer images" >
+                            <div class="card-body" style="    height: 200px;
+                            overflow: hidden;">
+                                <p class="title uppercase" style="max-height:20px;overflow:hidden;text-align: center;font-weight: 600;text-transform: uppercase;">'.$row->sku.'</p>
+                                <small class="clerk-glide-description" style="max-height:20px;">'.$row->excerptHtml.'</small>
+                                <p class="card-title" style="font-weight: 600;">'.$row->price.'</p>
+                                <button class="btn btn-sm btn-block btn-transparent" style="bottom: 20px !important;
+                                position: absolute;
+                                width: 84%;">Add to Cart</button>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modalone'.$row->product.'" tabindex="-1" role="dialog" aria-labelledby="modalone'.$row->product.'Title" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalone'.$row->product.'Title">'.$row->sku.'</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="text-center">  <img src="'.$row->media->standard[0].'" class="text-center" style="width:50%;"></div>
+                                   <p class="clerk-glide-description " style="display:flow-root;"><span style="float:left !important;font-weight:600;">'.$row->name.'</span><span style="float:right !important;font-weight:600;">'.$row->price.'</span></p>
+                                   <p class=" small text-left pb-2" style="text-align:left !important;">'.$row->description.'</p>
+                                   <div class="card-title text-center" >
+                                   <button class="btn btn-transparent">Add to Cart <i class="fa-solid fa-heart text-pink"></i></button>
+                                 
+                                   </div>
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                        $("#modalone'.$row->product.'").modal("toggle");
+                        </script>
+                        ';
+                    
 					}
+                   
                 ?>
-                <span class="clerk" data-template="@homepage-slider"></span>
-            </div>
+                </div></div>
+        </div>    
         </section>
 
         <section class="swati-section  text-center">
@@ -1351,7 +1152,7 @@
     </main>
     <script type="text/javascript" src="https://www.swati.com/js/vendors.c5a38ce3cdd72d179543.min.js" defer></script>
     <script type="text/javascript" src="https://www.swati.com/js/main.1eba2440a5ec107278d9.min.js" defer></script>
-    <footer class="bg-primary text-white">
+    <footer class=" text-white" style="background-color:#282b2c !important;">
         <div class="container-fluid py-5" style="max-width: 1400px">
             <div class="footer row">
                 <div class="footer-item col-12 col-xl">
@@ -1673,9 +1474,37 @@
         window.intercomSettings.email = localStorage.getItem('email');
     }
 </script>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://r.swati.com/ns.html?id=GTM-T6BL5VJ" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<script>
+function addHeadTag(tag, options) {
+let item = document.createElement(tag);
+Object.assign(item, options, { async: false });
+document.querySelector("head").appendChild(item)
+}
 
+function avoidFouc() {
+document.body.style.opacity = 1;
+}
+addHeadTag('link', {
+rel: 'stylesheet',
+href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
+onload: avoidFouc
+});
+addHeadTag('script', {
+type: 'application/javascript',
+src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js'
+});
+addHeadTag('script', {
+type: 'application/javascript',
+src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
+});
+addHeadTag('script', {
+type: 'application/javascript',
+src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+});
+addHeadTag('script', {
+type: 'application/javascript',
+src: 'https://code.jquery.com/jquery-3.5.1.js'
+
+});
+</script>
 </html>

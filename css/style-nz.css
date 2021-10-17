@@ -97,3 +97,89 @@
    text-align: center !important;
   
   }
+  * {box-sizing: border-box;}
+  .card-img-top{
+      background-color: #ccc;
+  }
+
+.btn-transparent {
+    border: 1px solid #ccc !important;
+    background-color: transparent !important;
+    border-radius: 5px !important;
+    color: #2e3033 !important;
+}
+
+.btn-transparent:hover {
+    border: 1px solid #ccc;
+    color: #2e3033;
+    background-color: rgb(202, 202, 202) !important;
+}
+
+.btn-transparent.disabled,
+.btn-transparent:disabled {
+    color: #2e3033 !important;
+    background-color: #f1f1f1 !important;
+    border-color: #f1f1f1;
+    cursor: no-drop !important;
+}
+
+.btn-transparent:not(:disabled):not(.disabled):active,
+.btn-transparent:not(:disabled):not(.disabled).active,
+.show>.btn-transparent.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(150, 150, 150);
+    border-color: rgb(150, 150, 150);
+}
+
+.btn-transparent:not(:disabled):not(.disabled):active:focus,
+.btn-transparent:not(:disabled):not(.disabled).active:focus,
+.show>.btn-transparent.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(180, 180, 180, 0.5);
+}
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+.img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
